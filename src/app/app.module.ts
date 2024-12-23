@@ -11,6 +11,7 @@ import { NabvarComponent } from './layout/navbar/nabvar.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import { HomeComponent } from './component/home/home.component';
 import { ContactComponent } from './component/contact/contact.component';
+import { ReciveFormComponent } from './component/recive-form/recive-form.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { ContactComponent } from './component/contact/contact.component';
     FooterComponent,
     HomeComponent,
     ContactComponent,
+    ReciveFormComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [provideClientHydration()],
